@@ -24,5 +24,11 @@ This project is a REST API for booking railway tickets. It uses Python with Fast
 | Booked list    | GET  | `/api/v1/tickets/booked`                  |
 | Available list | GET  | `/api/v1/tickets/available`               |
 
+## Tech Stack
+
+- **Language:** Python
+- **Framework:** Django, Django REST Framework
+- **Database:** PostgreSQL
+
 
       
