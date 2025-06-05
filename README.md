@@ -15,8 +15,14 @@ This project is a REST API for booking railway tickets. It uses Python with Fast
 3. See booked tickets
 4. See available tickets
 
+## API Endpoints
 
-
+| Action         | Verb | Path                                      |
+|----------------|------|-------------------------------------------|
+| Book ticket    | POST | `/api/v1/tickets/book`                    |
+| Cancel ticket  | POST | `/api/v1/tickets/cancel/{ticketId}`       |
+| Booked list    | GET  | `/api/v1/tickets/booked`                  |
+| Available list | GET  | `/api/v1/tickets/available`               |
 
 
       
